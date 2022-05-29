@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root
+{   
+    --fonte-logo: 'Comfortaa', cursive;
+    --fonte-menu: 'Lora', serif;
+    --fonte-titulo: 'Playfair Display', serif;
+
+    --cor01: #2E3B3E;
+    --cor02: #50666B;
+    --cor03: #F9B8BE;
+    --cor04: #FD6378;
+}
+body
+{
+    min-height: 96vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f9b8be10;
+    font-size: 16px;
+}
+header
+{
+    height: 250px;
+    background-color: white;
+}
+span
+{
+    margin: 4px;
+}
+.icone img
+{
+    width: 25px;
+    height: 25px;
+}
+#redes-sociais
+{   
+    display: inline-block;
+    position: relative;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+#logo
+{
+    display: inline-block;
+    position: relative;
+    margin-left: 240px;
+    margin-top: 90px;
+}
+#logo h1
+{
+    font-family: var(--fonte-logo);
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+#logo h2
+{
+    font-family: var(--fonte-menu);
+    font-size: 1.5em;
+    font-weight: lighter;
+    margin-top: 0;
+    text-align: center;
+    color: #2E3B3E;
+}
+#divBusca
+{
+    float: right;
+    position: relative;
+    margin-top: 120px;
+    padding-right: 75px;
+}
+#txtBusca
+{   
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+#navMenu
+{   
+    border-top: 1px solid rgba(128, 128, 128, 0.315);
+    text-align: center;
+    height: 55px;
+}
+#navMenu a
+{
+    
+    text-decoration: none;
+    color: #50666B;
+    font-family: var(--fonte-menu);
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 34.5px;
+    text-align: center;
+}
+
+#navMenu a:hover
+{
+    background-color: #f9b8be33;
+}
+#navMenu span
+{
+    width: 20px;
+    font-size: 1.3em;
+}
+.banner
+{   
+    display: inline-block;
+    width: 437px;
+    height: 680px;
+    margin: 3.8px;
+    
+}
+.banner img
+{
+    width: 437px;
+    height: 480px;
+}
+.banner a
+{
+    text-decoration: none;
+    color: #fd6377b7;
+    font-weight: 400;
+    font-family: var(--fonte-menu);
+}
+.banner a:hover
+{
+    border-bottom: 1px solid #FD6378;
+}
+.banner h2
+{
+    font-family: var(--fonte-titulo);
+    text-align: center;
+    color: #2E3B3E;
+    
+}
+.banner p
+{
+    padding: 25px;
+    text-align: justify;
+}
+.banner input
+{
+    text-align: center;
+    margin-left: 180px;
+    padding: 3px;
+    width: 100px;
+    border: transparent;
+    background-color: #f9b8be8c;
+    color: #2E3B3E;
+    font-family: var(--fonte-menu);
+    font-weight: bold;
+}
+footer
+{
+    background-color: #f9b8be9a;
+    color: #2E3B3E;
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+}
